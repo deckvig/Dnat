@@ -149,68 +149,68 @@
                         </tbody>
                     </table>
                     <h4><a name="link1"></a>Windows系统</h4>
-                    <h5>一、Windows&nbsp;7/Windows&nbsp;8/Windows&nbsp;10</h5>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;单击任务栏右下角的网络连接图标，然后单击“打开网络和共享中心”。</p>
+                    <h5>一、Windows 7/Windows 8/Windows 10</h5>
+                    <p> 1. 单击任务栏右下角的网络连接图标，然后单击“打开网络和共享中心”。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd1.png" alt="" width="240" height="155"></p>
+                    <p> <img src="./picture/pd1.png" alt="" width="240" height="155"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;在网络和共享中心单击左侧的“更改适配器设置”。</p>
+                    <p> 2. 在网络和共享中心单击左侧的“更改适配器设置”。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd2.png" alt="" width="700" height="507"></p>
+                    <p> <img src="./picture/pd2.png" alt="" width="700" height="507"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;右键单击正在联网需要更改的有线连接或无线连接，然后单击“属性”。&nbsp;需要管理员权限，如果系统提示您输入管理员密码或进行确认，请键入该密码或提供确认。</p>
+                    <p> 3. 右键单击正在联网需要更改的有线连接或无线连接，然后单击“属性”。 需要管理员权限，如果系统提示您输入管理员密码或进行确认，请键入该密码或提供确认。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd3.png" alt="" width="700" height="506"></p>
+                    <p> <img src="./picture/pd3.png" alt="" width="700" height="506"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;在“网络”选项卡，“此连接使用下列项目”下，双击“Internet&nbsp;协议版本&nbsp;4&nbsp;(TCP/IPv4)”。</p>
+                    <p> 4. 在“网络”选项卡，“此连接使用下列项目”下，取消 ipv6 协议前方的勾，双击“Internet 协议版本 4 (TCP/IPv4)”。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd4.png" alt="" width="340" height="412"></p>
+                    <p> <img src="./picture/pd4.png" alt="" width="340" height="412"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;在“常规”选项卡，单击“使用下面的&nbsp;DNS&nbsp;服务器地址”，然后在“首选&nbsp;DNS&nbsp;服务器”中输入10.203.66.66，然后单击“确定”保存退出。</p>
+                    <p> 5. 在“常规”选项卡，单击“使用下面的 DNS 服务器地址”，然后在“首选 DNS 服务器”中输入 10.203.66.66 ，在“备用 DNS 服务器”中输入 223.5.5.5 ，然后单击“确定”保存退出。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd5.png" alt="" width="360" height="374"></p>
+                    <p> <img src="./picture/pd5.png" alt="" width="360" height="374"></p>
                     <br>
-                    <h5>二、Windows&nbsp;XP</h5>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;在开始菜单中选择“设置”，然后单击“网络连接”。</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;在网络连接窗口中选择要设置的网络连接，右键单击，然后单击“属性”。</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;在”常规”选项卡，双击“选择internet协议（TCP/IP）”，打开属性窗口。</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;在”常规”选项卡下，单击“使用下面的DNS服务器地址”，&nbsp;在“首选&nbsp;DNS&nbsp;服务器”中输入10.203.66.66，然后单击“确定”保存退出。</p>
-                    <p>&nbsp;</p>
+                    <h5>二、Windows XP</h5>
+                    <p> 1. 在开始菜单中选择“设置”，然后单击“网络连接”。</p>
+                    <p> 2. 在网络连接窗口中选择要设置的网络连接，右键单击，然后单击“属性”。</p>
+                    <p> 3. 在”常规”选项卡，取消 ipv6 协议前方的勾，双击“选择internet协议（TCP/IP）”，打开属性窗口。</p>
+                    <p> 4. 在”常规”选项卡下，单击“使用下面的DNS服务器地址”， 在“首选 DNS 服务器”中输入 10.203.66.66 ，在“备用 DNS 服务器”中输入 223.5.5.5 ，然后单击“确定”保存退出。</p>
+                    <p> </p>
                     <h4><a name="link2"></a>Linux系统</h4>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;请先切换至root用户进行操作。另外请保证服务器能正常访问公网UDP及TCP&nbsp;53端口。</p>
+                    <p> 1. 请先切换至root用户进行操作。另外请保证服务器能正常访问公网UDP及TCP 53端口。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd6.png" alt="" width="274" height="39"></p>
+                    <p> <img src="./picture/pd6.png" alt="" width="274" height="39"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;vim&nbsp;/etc/resolv.conf，将首选及次选nameserver分别配置为10.203.66.66，保存后退出：</p>
+                    <p> 3. vim /etc/resolv.conf，将首选及次选nameserver分别配置为10.203.66.66 和 223.5.5.5 ，保存后退出：</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd7.png" alt="" width="195" height="29"></p>
+                    <p> <img src="./picture/pd7.png" alt="" width="195" height="29"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;如服务器上启动了nscd服务，建议关闭掉该服务或将该服务的域名缓存功能关闭，以避免出现异常。关闭域名缓存方法：</p>
-                    <p>vim&nbsp;/etc/nscd.conf</p>
+                    <p> 4. 如服务器上启动了nscd服务，建议关闭掉该服务或将该服务的域名缓存功能关闭，以避免出现异常。关闭域名缓存方法：</p>
+                    <p>vim /etc/nscd.conf</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd8.png" alt="" width="349" height="134"></p>
+                    <p> <img src="./picture/pd8.png" alt="" width="349" height="134"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;修改完成之后重启nscd服务即可。</p>
+                    <p> 修改完成之后重启nscd服务即可。</p>
                     <br>
                     <h4><a name="link3"></a>Mac系统</h4>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;在苹果菜单选择“系统偏好设置”。</p>
+                    <p> 1. 在苹果菜单选择“系统偏好设置”。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd9.png" alt="" width="200" height="231"></p>
+                    <p> <img src="./picture/pd9.png" alt="" width="200" height="231"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;单击“网络”图标。</p>
+                    <p> 2. 单击“网络”图标。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd10.png" alt="" width="650" height="582"></p>
+                    <p> <img src="./picture/pd10.png" alt="" width="650" height="582"></p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;从列表中选择想要修改或当前正在使用的网络连接服务（例如&nbsp;WI-FI或以太网），然后点击“高级”。</p>
+                    <p> 3. 从列表中选择想要修改或当前正在使用的网络连接服务（例如 WI-FI或以太网），然后点击“高级”。</p>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/pd11.png" alt="" width="650" height="508"></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;选择DNS标签，单击“DNS服务器”左下角的“+”，添加10.203.66.66，然后单击右下角的“好”。</p>
+                    <p> <img src="./picture/pd11.png" alt="" width="650" height="508"></p>
+                    <p> 4. 选择DNS标签，单击“DNS服务器”左下角的“+”，添加 10.203.66.66 和 223.5.5.5 ，并将 10.203.66.66 移到最上方，然后单击右下角的“好”。</p>
                     <br>
                     <h4><a name="link4"></a>IOS系统</h4>
                     <br>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./picture/ios.png"></p>
+                    <p> <img src="./picture/ios.png"></p>
                     <br>
                     <h3>申明</h3>
                     <li>本服务不会跟踪、存储、更改您的解析数据。</li>
